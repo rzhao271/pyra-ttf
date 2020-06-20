@@ -1,28 +1,28 @@
-## Pyra TTF
+# Pyra TTF
 
 [![Travis (.com) branch](https://img.shields.io/travis/com/rzhao271/pyra-ttf/master)](https://travis-ci.com/github/rzhao271/pyra-ttf)
 
-### About
+## About
 
 Pyra TTF, or Pyraminx Tip-to-Face, is an application that takes pyraminx algorithms in WCA notation, and converts them to face-turning algorithms.
 
 The original purpose of the application was to generate algorithms that can be applied to the cell-turning 4D pyraminx in MC4D, but it turns out that there is a way to solve it without resorting to RKT: [https://www.rayzz.me/articles/hypercubing/4-simplex-solution.html](https://www.rayzz.me/articles/hypercubing/4-simplex-solution.html).
 
-### Requirements
+## Requirements
 
-- Python 3
+- Python 3.6 or newer
 - Optional: Bash
 
-### Setup
+## Setup
 
-First activate virtualenv and install the dependencies
+First activate virtualenv, and then install the dependencies
 
-`source bin/activate`
-`pip3 install -r requirements.txt`
+- `source bin/activate`
+- `pip3 install -r requirements.txt`
 
 Note that the main Python 3 file is pyra_ttf.py
 
-### Running the code
+## Running the Code
 
 Assuming setup was successful, type in a shell
 
@@ -34,7 +34,7 @@ For example
 
 Also included is a shell script so one can call `./pyrattf "[algorithm]"` instead.
 
-### Program Limitations
+## Program Limitations
 
 The algorithm must only contain moves that are either
 
@@ -43,7 +43,7 @@ The algorithm must only contain moves that are either
 
 separated by spaces. Note that rotations are not allowed in the input.
 
-### Running the tests
+## Running the Tests
 
 Assuming setup was successful, type in a shell
 
