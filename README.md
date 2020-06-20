@@ -28,9 +28,13 @@ Assuming setup was successful, type in a shell
 
 `python3 pyra_ttf.py "[algorithm]"`
 
-For example
+For example,
 
 `python3 pyra_ttf.py "R U R' U R U R'"`
+
+Gives the output
+
+`Lw Rw Dw' Fw Lw Dw Fw'`
 
 Also included is a shell script so one can call `./pyrattf "[algorithm]"` instead.
 
