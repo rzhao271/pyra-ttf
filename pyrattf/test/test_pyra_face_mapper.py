@@ -44,6 +44,8 @@ def test_convert_vertex_twist_to_face_twist_r():
         try:
             PyraFaceMapper.convert_vertex_twist_to_face_twist(v)
             assert False
+        except AssertionError:
+            raise
         except:
             pass
 
@@ -64,6 +66,8 @@ def test_convert_vertex_twist_to_face_twist_l():
         try:
             PyraFaceMapper.convert_vertex_twist_to_face_twist(v)
             assert False
+        except AssertionError:
+            raise
         except:
             pass
 
@@ -84,6 +88,8 @@ def test_convert_vertex_twist_to_face_twist_b():
         try:
             PyraFaceMapper.convert_vertex_twist_to_face_twist(v)
             assert False
+        except AssertionError:
+            raise
         except:
             pass
 
@@ -104,6 +110,8 @@ def test_convert_vertex_twist_to_face_twist_u():
         try:
             PyraFaceMapper.convert_vertex_twist_to_face_twist(v)
             assert False
+        except AssertionError:
+            raise
         except:
             pass
 
@@ -114,5 +122,7 @@ def test_convert_vertex_twist_to_face_twist_invalid():
         try:
             PyraFaceMapper.convert_vertex_twist_to_face_twist(inv)
             assert False
+        except AssertionError:
+            raise
         except:
             pass
