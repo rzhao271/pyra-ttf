@@ -1,6 +1,6 @@
 # Pyra TTF
 
-[![Travis (.com) branch](https://img.shields.io/travis/com/rzhao271/pyra-ttf/master)](https://travis-ci.com/github/rzhao271/pyra-ttf)
+[![Travis (.com) branch](https://img.shields.io/travis/com/rzhao271/pyra-ttf/main)](https://travis-ci.com/github/rzhao271/pyra-ttf)
 
 ## About
 
