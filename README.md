@@ -10,29 +10,15 @@ The original purpose of the application was to generate algorithms that can be a
 
 ## Requirements
 
-- Python 3.6 or newer
-- Optional: Bash
+- Python 3.8 or newer
 
-## Setup
+## Example
 
-First activate virtualenv, and then install the dependencies
-
-- `source bin/activate`
-- `pip install -r requirements.txt`
-
-Note that the main Python 3 file is pyra_ttf.py
-
-## Running the Code
-
-Assuming setup was successful, type in a shell
-
-`python main.py "[algorithm]"`
-
-For example,
+Running
 
 `python main.py "R U R' U R U R'"`
 
-Gives the output
+in a shell (assuming you're in the right directory) gives the output
 
 `Lw Rw Dw' Fw Lw Dw Fw'`
 
@@ -46,9 +32,3 @@ The algorithm must only contain moves that are either
 - Face turns, such as Lw, Rw, Fw, and Dw
 
 separated by spaces. Note that rotations are not allowed in the input.
-
-## Running the Tests
-
-Assuming setup was successful, type in a shell
-
-`pytest`
