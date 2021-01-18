@@ -36,9 +36,10 @@ class PyraFaceMapper:
             # and the following_rotation is [U']
             vertex_move_tip = original_move[:1]
             move_direction = original_move[1:]
-            face_move = vertex_face_map.get(vertex_move_tip)
-            if face_move is None:
+            tmp_move = vertex_face_map.get(vertex_move_tip)
+            if tmp_move is None:
                 raise Exception("Invalid move entered: " + original_move)
+            face_move = tmp_move
             face_move_with_direction = face_move + move_direction
             final_face_move = face_move_with_direction + \
                 " " + "[" + original_move.upper() + "]"
