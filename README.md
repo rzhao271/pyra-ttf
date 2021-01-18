@@ -18,7 +18,7 @@ The original purpose of the application was to generate algorithms that can be a
 First activate virtualenv, and then install the dependencies
 
 - `source bin/activate`
-- `pip3 install -r requirements.txt`
+- `pip install -r requirements.txt`
 
 Note that the main Python 3 file is pyra_ttf.py
 
@@ -26,17 +26,17 @@ Note that the main Python 3 file is pyra_ttf.py
 
 Assuming setup was successful, type in a shell
 
-`python3 pyra_ttf.py "[algorithm]"`
+`python main.py "[algorithm]"`
 
 For example,
 
-`python3 pyra_ttf.py "R U R' U R U R'"`
+`python main.py "R U R' U R U R'"`
 
 Gives the output
 
 `Lw Rw Dw' Fw Lw Dw Fw'`
 
-Also included is a shell script so one can call `./pyrattf "[algorithm]"` instead.
+Also included is a shell script so one can call `./pyrattf.sh "[algorithm]"` instead.
 
 ## Program Limitations
 
